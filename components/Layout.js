@@ -6,8 +6,6 @@ import { useRouter } from 'next/router'
 
 import { currentDayName } from '../utils/dateUtils'
 
-import BlackLivesMatter from './BlackLivesMatter'
-
 const menu = [
   {
     path: '/',
@@ -90,7 +88,6 @@ function Layout({ children, isHomepage, secondaryPage }) {
 
   return (
     <>
-      <BlackLivesMatter />
 
       <div className="top-menu">
         <Row>
